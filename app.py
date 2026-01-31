@@ -1269,16 +1269,12 @@ def actualizar_rankings(metrica, munis_sel):
     return fig_rank, columns, data, fig_comp, fig_radar, fig_treemap
 
 
-# ============================================================
-# 12. RUN (LOCAL ONLY)
-# ============================================================
-
 if __name__ == "__main__":
-    host = "127.0.0.1"
-    port = 8050
+    port = int(os.environ.get("PORT", 8050))
+    host = "0.0.0.0"
 
     print("\nDashboard DANA en ejecución")
-    print(f"Ábrelo en el navegador: http://{host}:{port}\n")
+    print(f"Escuchando en {host}:{port}\n")
 
     app.run(
         debug=False,
