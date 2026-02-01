@@ -941,7 +941,7 @@ app.layout = dbc.Container(
                                         className="fw-bold mb-1",
                                     ),
                                     html.P(
-                                        "Incluye puntos geolocalizados, agregación por municipio, rankings y asistente IA (NL→SQL).",
+                                        "Incluye puntos geolocalizados, agregación por municipio, rankings y comparativas.",
                                         className="text-muted mb-2",
                                     ),
                                     dbc.Badge("Datos municipales", color="primary", className="me-2"),
