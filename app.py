@@ -946,7 +946,7 @@ app.layout = dbc.Container(
                                     ),
                                     dbc.Badge("Datos municipales", color="primary", className="me-2"),
                                     dbc.Badge("Mapa interactivo", color="info", className="me-2"),
-                                    dbc.Badge("Asistente IA", color="success"),
+                                    # dbc.Badge("Asistente IA", color="success"),
                                 ],
                                 md=9,
                             ),
